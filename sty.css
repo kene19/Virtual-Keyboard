@@ -1,0 +1,208 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+} 
+.con{
+     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.ka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    gap: 5px;
+}
+.gon{
+    width: 370px;
+   padding: 15px;
+   border: 1px solid #000;
+   margin-top: 20px;
+   border-radius: 10px;
+   background-color:rgb(228, 221, 221) ;
+}
+button{
+    width: 30px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #222;
+    padding: 2px;
+    font-weight: 500;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    background: transparent;
+}
+
+.space{
+    width: 150px;
+}
+.spacee{
+    width: 150px;
+}
+
+
+.textContainer{
+    height: 10vh;
+    width: 350px;
+    font-size: 15px;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 1px grey;
+    outline: none;
+    padding: 10px;
+    overflow-y: scroll;
+    border: 2px solid rgb(228, 221, 221);
+   cursor: text;
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.last{
+    width: 65%;
+    margin: 0 auto ;
+}
+
+
+
+.key{
+    cursor: pointer;
+    padding: 0.7em;
+    border-radius: 3px;
+
+}
+.fix{
+    cursor: pointer;
+    padding: 0.5em;
+    border-radius: 3px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+.key:active{
+    background: red;
+    color:#fff;
+}
+
+.active{
+    background-color: whitesmoke;
+}
+.emoji{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    padding-left: 65px;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow-x: auto;
+    scroll-snap-align:start;
+    scroll-snap-type:x mandatory;
+}
+.emojik{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 35px;
+    margin-left:310px ;
+    background-color:rgb(255, 255, 255) ;
+}
+.emojik1{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        padding: 35px 15px 40px 15px;
+    background-color:rgb(255, 255, 255) ;
+
+}
+.emo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.maa{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgb(228, 221, 221) ;
+    z-index: 1;
+    padding: 10px;
+    border: 1px solid #222;
+    border-radius: 10px;
+}
+.man{
+    display: none;
+    width: 400px;
+    height: 270px;
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid #fffafa;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 10px;
+    
+}
+.setting{
+
+  position: absolute;
+  width: 390px;
+  border: 1px solid #222;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+  
+  box-shadow: 0 0 9px 1px grey;
+  background-color:rgb(228, 221, 221) ;
+  bottom: 10px;
+  left: -440px;
+  transition: left 0.5s;
+  
+
+}
+.settin{
+    margin-top: 20px;
+    left: 10px;
+}
+.sett{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+
+}
+
+#rest{
+    width:60px;
+    padding: 7px;
+}
+#colo{
+    cursor: pointer;
+}
+.se{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

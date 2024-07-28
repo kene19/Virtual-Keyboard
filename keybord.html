@@ -1,0 +1,208 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Virtual Keyboard</title>
+        <link rel="stylesheet" href="sty.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="con">
+        <div class="textContainer" name="dis">
+        </div>
+        <div class="gon" >
+            <div class="ka num" >
+                <button class="key">1</button>
+                <button class="key">2</button>
+                <button class="key">3</button>
+                <button class="key">4</button>
+                <button class="key">5</button>
+                <button class="key">6</button>
+                <button class="key">7</button>
+                <button class="key">8</button>
+                <button class="key">9</button>
+                <button class="key">0</button>   
+                   </div>
+            <div class="ka">
+                <button class="key">q</button>
+                <button class="key">w</button>
+                <button class="key">e</button>
+                <button class="key">r</button>
+                <button class="key">t</button>
+                <button class="key">y</button>
+                <button class="key">u</button>
+                <button class="key">i</button>
+                <button class="key">o</button>
+                <button class="key">p</button>
+            </div>
+            <div class="ka">
+                
+                <button class="key">a</button>
+                <button class="key">s</button>
+                <button class="key">d</button>
+                <button class="key">f</button>
+                <button class="key">g</button>
+                <button class="key">h</button>
+                <button class="key">j</button>
+                <button class="key">k</button>
+                <button class="key">l</button>
+                
+            </div>
+            <div class="ka">
+                <button class="key capslock">&#x2B06;</button>
+                <button class="key">z</button>
+                <button class="key">x</button>
+                <button class="key">c</button>
+                <button class="key">v</button>
+                <button class="key">b</button>
+                <button class="key">n</button>
+                <button class="key">m</button>
+                <button class="key delete"><i class="fa-solid fa-delete-left"></i></button>
+                
+            </div>
+            <div class="ka">
+                <button type="submit" class="fix se" onclick="ope()">⚙️</button>
+                <button class="fix click">&#128512;</button>
+                <button class="key space">space</button>
+                <button class="key">.</button>
+                <button class="key enter">&#x21A9;</button> 
+            </div>
+        </div>
+
+        <!-- emoji -->
+<div class="man">
+        <div class="emoji">
+
+            <div class="emojik">
+            <div class="emo">
+            <div class="key">&#128512;</div>
+            <div class="key">&#128513;</div>
+            <div class="key">&#128518;</div>
+            <div class="key">&#128519;</div>
+            <div class="key">&#128520;</div>
+            <div class="key">&#128521;</div>
+            <div class="key">&#128522;</div>
+            <div class="key">&#128523;</div>
+            <div class="key">&#128524;</div>
+        </div>
+        <div class="emo">
+            <div class="key">&#128525;</div>
+            <div class="key">&#128526;</div>
+            <div class="key">&#128527;</div>
+            <div class="key">&#128528;</div>
+            <div class="key">&#128529;</div>
+            <div class="key">&#128530;</div>
+            <div class="key">&#128531;</div>
+            <div class="key">&#128532;</div>
+            <div class="key">&#128533;</div>
+        </div>
+        <div class="emo">
+            <div class="key">&#128534;</div>
+            <div class="key">&#128535;</div>
+            <div class="key">&#128536;</div>
+            <div class="key">&#128537;</div>
+            <div class="key">&#128538;</div>
+            <div class="key">&#128539;</div>
+            <div class="key">&#128540;</div>
+            <div class="key">&#128541;</div>
+            <div class="key">&#128542;</div>
+        </div>
+        <div class="emo">
+            
+            <div class="key">&#128543;</div>
+            <div class="key">&#128544;</div>
+            <div class="key">&#128545;</div>
+            <div class="key">&#128546;</div>
+            <div class="key">&#128547;</div>
+            <div class="key">&#128548;</div>
+            <div class="key">&#128549;</div>
+            <div class="key">&#128550;</div>
+            <div class="key">&#128551;</div>
+            
+            
+           
+        </div>
+        
+    </div>
+
+    <div class="emojik1">
+        <div class="emo">
+        <div class="key">&#128577;</div>
+        <div class="key">&#128578;</div>
+        <div class="key">&#128579;</div>
+        <div class="key">&#128580;</div>
+        <div class="key">&#129296;</div>
+        <div class="key">&#129297;</div>
+        <div class="key">&#129298;</div>
+        <div class="key">&#129299;</div>
+        <div class="key">&#129300;</div>
+    </div>
+    <div class="emo">
+        <div class="key">&#129301;</div>
+        <div class="key">&#129303;</div>
+        <div class="key">&#129312;</div>
+        <div class="key">&#129314;</div>
+        <div class="key">&#129315;</div>
+        <div class="key">&#129316;</div>
+        <div class="key">&#129317;</div>
+        <div class="key">&#129319;</div>
+        <div class="key">&#129320;</div>
+    </div>
+    <div class="emo">
+        <div class="key">&#129321;</div>
+        <div class="key">&#129322;</div>
+        <div class="key">&#129323;</div>
+        <div class="key">&#129325;</div>
+        <div class="key">&#129326;</div>
+        <div class="key">&#129327;</div>
+        <div class="key">&#129392;</div>
+        <div class="key">&#129393;</div>
+        <div class="key">&#129395;</div>
+    </div>
+    <div class="emo">
+        
+        <div class="key">&#128127;</div>
+        <div class="key">&#128128;</div>
+        <div class="key">&#129324;</div>
+        <div class="key">&#128584;</div>
+        <div class="key">&#128585;</div>
+        <div class="key">&#128586;</div>
+        <div class="key">&#128574;</div>
+        <div class="key">&#128575;</div>
+        <div class="key">&#128576;</div>
+        
+       
+    </div>
+    
+</div>
+
+</div>
+
+<div class="ka maa">
+   
+    <button class="fix com">&#9000;</button>
+    <button class="key" value="." onclick="dis.value +='.'">.</button>
+    <button class="fix spacee" >space</button>
+    <button class="key deletee" ><i class="fa-solid fa-delete-left"></i></button>
+    <button class="fix entere">&#x21A9;</button> 
+</div>
+</div>
+
+<!-- sttin -->
+ <div class="setting" >
+    <div class="sett">
+    <button type="submit" class="fix close" onclick="clos()">&#9000;</button>
+    <input type="color" name="" id="colo">
+    <button id="rest">Default</button>
+</div>
+ </div>
+
+</div>
+
+    
+    </body>
+    <script src="app.js"></script>
+</body>
+</html>
