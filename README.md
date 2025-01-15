@@ -37,6 +37,4 @@ The project consists of the following main files:
 ## Author
 This project was developed as a demonstration of a virtual keyboard implementation using web technologies.
 
-## License
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
 
