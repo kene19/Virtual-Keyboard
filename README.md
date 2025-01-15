@@ -1,8 +1,8 @@
 # Virtual Keyboard
 
 ## Description
-The Virtual Keyboard project is a web-based application that simulates a keyboard within a browser. Users can interact with the virtual keyboard to input text directly on the screen, making it useful for devices without physical keyboards or for accessibility purposes.
-<a href=""></a> 
+The Virtual Keyboard project is a web-based application that simulates a keyboard within a browser. Users can interact with the virtual keyboard to input text directly on the screen, making it useful for devices without physical keyboards or for accessibility purposes.</br>
+<a href="https://kene19.github.io/Virtual-Keyboard/">open this link</a> 
 ## Features
 - Fully functional virtual keyboard interface.
 - Interactive key presses that display input on the screen.
